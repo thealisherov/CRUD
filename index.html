@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD SITE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <h1>Data center</h1>
+      </div>
+    </header>
+    <main class="container">
+      <div class="top">
+        <div class="title_forms"><h1>Jadvalni to'ldiring</h1></div>
+        <hr />
+        <div class="title_data">
+          <p>Ism-Familiya</p>
+          <p>Yosh</p>
+          <p>shahar</p>
+          <p>Kasb</p>
+          <p>Qiziqish</p>
+        </div>
+      </div>
+      <section class="parent_section">
+        <div class="forms">
+          <form action="">
+            <label for="ism">
+              <p class="form_texts">Ismingizni kiriting</p>
+              <input
+                type="text"
+                id="ism"
+                name="ism"
+                placeholder="Ismingizni kiring"
+                required
+              />
+            </label>
+            <label for="yosh">
+              <p class="form_texts">yoshingizni kiriting</p>
+              <input
+                type="number"
+                id="yosh"
+                placeholder="yoshingizni kiritng"
+                required
+              />
+            </label>
+
+            <label for="shahar">
+              <p class="form_texts">Shahringizni kiriting</p>
+              <select name="shahar" id="shahr" required>
+                <option value="Samarqand">Samarqand</option>
+                <option value="Toshkent">Toshkent</option>
+                <option value="Fargona">Farg'ona</option>
+                <option value="Xiva">Xiva</option>
+              </select>
+            </label>
+            <label for="kasb">
+              <p class="form_texts">Kasbingizni kiriting</p>
+              <input
+                type="text"
+                id="kasb"
+                name="shahar"
+                placeholder="Kasbingizni kiring"
+                required
+              />
+            </label>
+            <label for="hobby">
+              <p class="form_texts">Qiziqishingizni kiriting</p>
+              <input
+                type="text"
+                id="hobby"
+                name="hobby"
+                placeholder="Qiziqishingizni kiriting"
+              />
+            </label>
+
+            <button id="add">Qo'shish</button>
+          </form>
+        </div>
+        <hr />
+        <div class="data"></div>
+      </section>
+    </main>
+  </body>
+</html>
