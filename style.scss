@@ -90,5 +90,65 @@ header {
   }
   .data {
     width: 50%;
+    max-height: 450px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border: none;
+    .user-card {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      margin-bottom: 4px;
+      justify-content: space-evenly;
+      max-height: 80px;
+      height: 100%;
+      padding: 5px;
+      background-color: #ffeeee;
+      border-radius: 8px;
+      p {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+      }
+      .data-p {
+        min-height: 50px;
+        max-height: 50px;
+        height: 100%;
+        border-radius: 8px;
+        padding-top: 10px;
+      }
+      .data-p:first-child {
+        min-width: 170px;
+        max-width: 170px;
+        width: 100%;
+        background-color: red;
+      }
+
+      .data-p:nth-child(2) {
+        min-width: 40px;
+        max-width: 40px;
+        width: 100%;
+        background-color: green;
+      }
+      .data-p:nth-child(3) {
+        min-width: 130px;
+        max-width: 130px;
+        width: 100%;
+        background-color: gray;
+        margin-left: 10px;
+      }
+      .data-p:nth-child(4) {
+        min-width: 100px;
+        max-width: 100px;
+        width: 100%;
+        background-color: blue;
+      }
+      .data-p:nth-child(5) {
+        min-width: 100px;
+        max-width: 100px;
+        width: 100%;
+        background-color: yellow;
+      }
+    }
   }
 }
